@@ -1,0 +1,205 @@
+{
+	"research": {
+		"More Chickens": 5,
+		"More Pigs": 3,
+		"More Cows": 3,
+		"More Sheep": 3,
+		"Advanced Mining": 0,
+		"Advanced Forestry": 0
+	},
+	"collection": 640,
+	"slots": {
+		"farm": [
+			24,
+			2
+		],
+		"orchard": [
+			8,
+			1
+		],
+		"nursery": [
+			5,
+			1
+		],
+		"Café Manjuu": 2,
+		"mine": 3,
+		"forest": 4,
+		"Golden Koi Restaurant": 1,
+		"Polar Bear Teahouse": 1,
+		"Manjuu Eatery": 1,
+		"Fin-'n'-Feather Grill": 1,
+		"Lumber Processing": 1,
+		"Machinery Production": 1,
+		"Arts & Crafts": 1,
+		"Electronic Production": 1
+	},
+	"extra daily": {
+		"Fresh Honey": 5,
+		"Peanuts": 24,
+		"Matsutake": 6,
+		"Autumn Chrysanthemum": 8,
+		"Reed Flowers": 16,
+		"Poultry": 30
+	},
+	"daily drinks": 3,
+	"factories": {
+		"Lumber Processing": [
+			"Paper",
+			"Notebook",
+			"Chair and Desk",
+			"Choice Wooden Barrel",
+			"Filing Cabinet"
+		],
+		"Machinery Production": [
+			"Charcoal Brush",
+			"Nails",
+			"Cable",
+			"Chemicals",
+			"Gunpowder"
+		],
+		"Arts & Crafts": [
+			"Cloth",
+			"Leather",
+			"Rope",
+			"Gloves",
+			"Aroma Sachet",
+			"Autumn Bouquet",
+			"Peanut Oil"
+		],
+		"Electronic Production": [
+			"Ink Cartridge",
+			"Clock"
+		]
+	},
+	"shops": {
+		"Café Manjuu": {
+			"rank": "silver",
+			"meals": [
+				"Omelette",
+				"Iced Coffee",
+				"Cheese",
+				"Latte",
+				"Citrus Coffee",
+				"Strawberry Milkshake",
+				"Morning Light Energy Combo",
+				"The Wake-Up Call",
+				"Fruity & Fruitier"
+			]
+		},
+		"Golden Koi Restaurant": {
+			"rank": "silver",
+			"meals": [
+				"Tofu",
+				"Tofu with Minced Meat",
+				"Omurice",
+				"Cabbage and Tofu Soup",
+				"Vegetable Salad",
+				"Classic Tofu Combo",
+				"Hearty Meal",
+				"Dried Persimmon",
+				"Matsutake and Chicken Soup"
+			]
+		},
+		"Polar Bear Teahouse": {
+			"rank": "silver",
+			"meals": [
+				"Apple Juice",
+				"Banana and Mango Juice",
+				"Honey and Lemon Water",
+				"Strawberry Lemon Drink",
+				"Lavender Tea",
+				"Strawberry Honey Frappé",
+				"Floral and Fruity",
+				"Colorful Fruit Paradise",
+				"Sunny Honey",
+				"Carrot and Pear Juice",
+				"Chrysanthemum Tea"
+			]
+		},
+		"Manjuu Eatery": {
+			"rank": "bronze",
+			"meals": [
+				"Corn Cup",
+				"Apple Pie",
+				"Orange Pie",
+				"Sticky Rice with Mango",
+				"Banana Crêpe",
+				"Succulently Sweet",
+				"Orchard Duo"
+			]
+		},
+		"Fin-'n'-Feather Grill": {
+			"rank": "silver",
+			"meals": [
+				"Coal-Roasted Skewer",
+				"Chicken and Potato Hors d'Oeuvre",
+				"Stir-Fried Chicken",
+				"The Carne-val"
+			]
+		}
+	},
+	"not sellable": ["Dried Persimmon", "Matsutake and Chicken Soup", "Carrot and Pear Juice", "Chrysanthemum Tea"],
+	"production": [
+		"Raw Timber",
+		"Workable Wood",
+		"Premium Wood",
+		"Elegant Wood",
+		"Coal",
+		"Copper Ore",
+		"Bauxite Ore",
+		"Iron Ore",
+		"Sulfur",
+		"Silver Ore"
+	],
+	"season pts weight": 1,
+	"profit weight": 1,
+	"ignore cost": false,
+	"characters": {
+		"Workerjuu": [
+			1,
+			1
+		],
+		"Saratoga": [
+			23,
+			1
+		],
+		"New Jersey": [
+			41,
+			1
+		],
+		"Cheshire": [
+			30,
+			9
+		],
+		"Amagi-chan": [
+			21,
+			1
+		],
+		"Tashkent": [
+			21,
+			1
+		],
+		"Le Malin": [
+			10,
+			1
+		],
+		"Shimakaze": [
+			40,
+			7
+		]
+	},
+	"books": {
+		"New Jersey": {
+			"Husbandry": 2
+		},
+		"Cheshire": {
+			"Managing": 4
+		}
+	},
+	"use books as override": false,
+	"hours per day": 24,
+	"number of days": 1,
+	"max project runs per day": 100,
+	"time limit": 300,
+	"gap": 0.05
+}
