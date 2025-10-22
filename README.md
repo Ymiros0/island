@@ -63,7 +63,7 @@ Next is a long list of which character did which project how often. A thing to w
 After that it prints an unsorted summary of time used per place.\
 Then it prints a table of item balances with associated season pts you'd make by converting them.\
 Penultimately it prints the items sold on average, by which clerk and how many were put on display. If you run multiple days this becomes a bit long and disorganised as it prints one time for every entry put on display and it isn't sorted by days.\
-Finally there is the items you need to buy to finance it and the profit calculated from the shop income and the expenses.\
+Finally there is the items you need to buy to finance it and the profit calculated from the shop income and the expenses.
 
 ## Remarks
 This solver isn't perfect, it cannot properly handle downtime, it assumes you are always awake, ready to instantly start the next project once the first has ended. Configuring a regular check in or sleep time is very difficult to keep performant at the same time so I probably won't do it.\
