@@ -5,7 +5,7 @@
 		"More Cows": 3,
 		"More Sheep": 3,
 		"Advanced Mining": 0,
-		"Advanced Forestry": 0
+		"Advanced Logging": 0
 	},
 	"collection": 640,
 	"slots": {
@@ -22,12 +22,12 @@
 			1
 		],
 		"Café Manjuu": 2,
-		"mine": 3,
-		"forest": 4,
 		"Golden Koi Restaurant": 1,
 		"Polar Bear Teahouse": 1,
 		"Manjuu Eatery": 1,
 		"Fin-'n'-Feather Grill": 1,
+		"mine": 3,
+		"forest": 4,
 		"Lumber Processing": 1,
 		"Machinery Production": 1,
 		"Arts & Crafts": 1,
@@ -199,7 +199,7 @@
 	"use books as override": false,
 	"hours per day": 24,
 	"number of days": 1,
-	"max project runs per day": 100,
+	"max project runs per day": 10,
 	"time limit": 300,
 	"gap": 0.05
 }
