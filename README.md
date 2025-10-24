@@ -51,11 +51,13 @@ Examples for all possible configs can be found in `config.json`.
 - `time limit` Number of seconds after which the optimiser aborts and prints the current best result. Default 300
 - `gap` Relative distance of the best found solution to the best possible solution at which the solver stops optimising. Eg best possible solution is score 100, solver found a solution with score 99, then if gap is 0.01 = 1% or greater the solver quits. Default 0.05
 - `print log` Print the optimiser log while it progresses. Default false
+- `staff shifts` How many shifts you allow per day. Basically how often you wanna start selling per day, eg Shimakaze could try to sell items up to 3 times a day in different shops if you set this to 3. Default 2, range [1,3]
 
 Expected runtime with a `gap` of 5% is just a few seconds, the smaller you make this gap the larger the runtime becomes, 1% already often takes about a minute.
 
 ## Results
 This executable will open a terminal window. If it instantly closes again, an error occured and you should double check whether your config is correct.\
+To see if your config is correct json, simply use https://jsonlint.com/.\
 If it works it will print the results in the terminal window in a more or less pretty format.\
 It starts by listing the obtained objective value. This is generally profit * `profit weight` + season pts * `season pts weight`, however do not be alarmed if the numbers don't match as it does not count the base points from `extra daily` towards the objective.\
 Then comes the amount of energy drinks consumed and by which character.\
