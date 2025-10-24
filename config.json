@@ -39,7 +39,9 @@
 		"Matsutake": 6,
 		"Autumn Chrysanthemum": 8,
 		"Reed Flowers": 16,
-		"Poultry": 30
+		"Poultry": 30,
+		"Coal": 144,
+		"Raw Timber": 144
 	},
 	"daily drinks": 3,
 	"factories": {
