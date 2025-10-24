@@ -199,7 +199,8 @@
 	"use books as override": false,
 	"hours per day": 24,
 	"number of days": 1,
-	"max project runs per day": 10,
+	"max project runs per day": 100,
 	"time limit": 300,
-	"gap": 0.05
+	"gap": 0.05,
+	"staff shifts": 2
 }
